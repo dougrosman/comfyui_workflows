@@ -2310,43 +2310,6 @@
       "bgcolor": "#535"
     },
     {
-      "id": 77,
-      "type": "KepStringLiteral",
-      "pos": {
-        "0": 268,
-        "1": 472
-      },
-      "size": [
-        319.20001220703125,
-        76
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            95,
-            139
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "title": "Folder Name (all lowercase, no spaces)",
-      "properties": {
-        "Node name for S&R": "KepStringLiteral"
-      },
-      "widgets_values": [
-        "vid2vid"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
       "id": 14,
       "type": "DownloadAndLoadDepthAnythingV2Model",
       "pos": {
@@ -2358,7 +2321,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2386,12 +2349,12 @@
         "0": 16,
         "1": 114
       },
-      "size": [
-        539.394756194929,
-        266.4479941590407
-      ],
+      "size": {
+        "0": 539.394775390625,
+        "1": 266.447998046875
+      },
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2402,6 +2365,43 @@
       ],
       "color": "#432",
       "bgcolor": "#653"
+    },
+    {
+      "id": 77,
+      "type": "KepStringLiteral",
+      "pos": {
+        "0": 268,
+        "1": 472
+      },
+      "size": {
+        "0": 319.20001220703125,
+        "1": 76
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            95,
+            139
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "title": "File Name (no spaces)",
+      "properties": {
+        "Node name for S&R": "KepStringLiteral"
+      },
+      "widgets_values": [
+        "vid2vid"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
     }
   ],
   "links": [
@@ -2951,10 +2951,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5644739300537773,
+      "scale": 0.7513148009015781,
       "offset": [
-        15.426186511896631,
-        501.61554464362615
+        -16.060899346603684,
+        142.99074009923572
       ]
     }
   },
